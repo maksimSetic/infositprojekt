@@ -1,0 +1,59 @@
+
+
+.cardimg{
+    position: absolute;
+    width: 275px;
+    height: 350px;
+    top: 116px;
+    background-color: blue;
+}
+
+.cardinfo {
+    position: absolute;
+    width: 275px;
+    height: 141px;
+    left: 0%;
+    right: 0.36%;
+    top: 71.34%;
+    bottom: -0.41%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.cardname {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #EC7F00;
+}
+
+.cardlocation {
+    position: absolute;
+    width: 46px;
+    height: 18px; 
+    left: 1px;
+    top: 40px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    
+}
+
+.cardexcerpt {
+position: absolute;
+left: 1.93%;
+right: 77.46%;
+top: 85%;
+bottom: 3%;
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #7D7D7D;
+
+}

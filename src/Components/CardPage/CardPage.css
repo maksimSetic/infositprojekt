@@ -1,0 +1,57 @@
+
+.cardcontainerpage{
+    position: absolute;
+    height: fit-content;
+    top: 50%;
+    left: 50%;
+}
+
+.cardcontainer {
+    position: relative;
+    height: 601px;
+    width: 1140px;
+    top: -301px;
+    left: -570px;
+    background-color: rgb(224, 224, 224);
+
+}
+
+.containertitle1 {
+    position: absolute;
+    left: 0.09%;
+    right: 87.98%;
+    top: 0%;
+    bottom: 93.68%;
+    color: #EC7F00;
+    width: 136px;
+    height: 38px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+}
+
+
+.containertitle2 {
+    position: absolute;
+    left: 0.09%;
+    right: 40.35%;
+    top: 8.15%;
+    bottom: 87.35%;
+    
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #505050;
+}
+
+
+.cardarraybox {
+    display: flex;
+    justify-content: space-between;
+    
+    }
