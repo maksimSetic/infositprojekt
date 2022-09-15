@@ -1,23 +1,17 @@
 
 
 .cardimg{
-    position: absolute;
     width: 275px;
     height: 350px;
-    top: 116px;
     background-color: blue;
 }
 
 .cardinfo {
-    position: absolute;
-    width: 275px;
+    width: 260px;
     height: 141px;
-    left: 0%;
-    right: 0.36%;
-    top: 71.34%;
-    bottom: -0.41%;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    padding: 10px;
 }
 
 .cardname {
@@ -26,34 +20,60 @@
     font-size: 18px;
     line-height: 21px;
     color: #EC7F00;
+    padding: 10px;
 }
 
 .cardlocation {
-    position: absolute;
-    width: 46px;
+
+    width: fit-content;
     height: 18px; 
-    left: 1px;
-    top: 40px;
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 21px;
+    text-align: center;
+    background-color:  #0501A7;
+    color: white;
+    margin-left: 10px;
     
 }
 
 .cardexcerpt {
-position: absolute;
-left: 1.93%;
-right: 77.46%;
-top: 85%;
-bottom: 3%;
-font-family: 'Roboto Condensed';
-font-style: normal;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;  
+overflow: hidden;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
+margin-top: 20px;
+margin-left: 10px;
 
 color: #7D7D7D;
+
+}
+
+.cardexcerpthidden {
+    display: -webkit-box;
+    height: 0px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7D7D7D;
+
+}
+
+.cardexcerpthidden:hover{ 
+    height: 100px;
+
+}
+
+.vector {
+    position: absolute;
+    top: 435px;
 
 }

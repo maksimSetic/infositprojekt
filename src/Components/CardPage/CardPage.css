@@ -2,6 +2,7 @@
 .cardcontainerpage{
     position: absolute;
     height: fit-content;
+    width: fit-content;
     top: 50%;
     left: 50%;
 }
@@ -9,7 +10,7 @@
 .cardcontainer {
     position: relative;
     height: 601px;
-    width: 1140px;
+    width: fit-content;
     top: -301px;
     left: -570px;
     background-color: rgb(224, 224, 224);
@@ -53,5 +54,7 @@ line-height: 38px;
 .cardarraybox {
     display: flex;
     justify-content: space-between;
+    width: fit-content;
+    
     
     }
