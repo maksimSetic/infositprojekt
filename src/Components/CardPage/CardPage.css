@@ -1,33 +1,29 @@
 
 .cardcontainerpage{
-    position: absolute;
+    overflow: hidden;
     height: fit-content;
     width: fit-content;
-    top: 50%;
-    left: 50%;
+   
 }
 
 .cardcontainer {
     position: relative;
-    height: 601px;
+    height: fit-content;
     width: fit-content;
-    top: -301px;
-    left: -570px;
-    background-color: rgb(224, 224, 224);
+ 
 
 }
 
+
+
 .containertitle1 {
-    position: absolute;
-    left: 0.09%;
-    right: 87.98%;
-    top: 0%;
-    bottom: 93.68%;
-    color: #EC7F00;
-    width: 136px;
-    height: 38px;
-    font-family: 'Roboto';
-font-style: normal;
+display: flex;
+margin-top: 20px;
+margin-left: 15px;
+width: 200px;
+color: #EC7F00;
+height: 38px;
+font-family: 'Roboto', sans-serif;
 font-weight: 700;
 font-size: 32px;
 line-height: 38px;
@@ -40,8 +36,8 @@ line-height: 38px;
     right: 40.35%;
     top: 8.15%;
     bottom: 87.35%;
-    
-    font-family: 'Roboto Condensed';
+    margin-left: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -52,9 +48,15 @@ line-height: 38px;
 
 
 .cardarraybox {
-    display: flex;
-    justify-content: space-between;
-    width: fit-content;
-    
+   display: flex;
+   justify-content: center;
+   align-items: center;
     
     }
+
+    @media only screen and (max-width: 600px) {
+        .cardarraybox {
+          display: table;
+          overflow: hidden;
+        }
+      }
