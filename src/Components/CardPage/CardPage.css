@@ -3,6 +3,7 @@
     overflow: hidden;
     height: fit-content;
     width: fit-content;
+    position: relative;
    
 }
 
@@ -10,6 +11,7 @@
     position: relative;
     height: fit-content;
     width: fit-content;
+  
  
 
 }
@@ -31,19 +33,16 @@ line-height: 38px;
 
 
 .containertitle2 {
-    position: absolute;
-    left: 0.09%;
-    right: 40.35%;
-    top: 8.15%;
-    bottom: 87.35%;
-    margin-left: 15px;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    
-    color: #505050;
+display: flex;
+font-family: 'Roboto Condensed', sans-serif;
+font-style: normal;
+ font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+color: #505050;
+margin-left: 15px;
+width: 400px;
+
 }
 
 
@@ -51,6 +50,13 @@ line-height: 38px;
    display: flex;
    justify-content: center;
    align-items: center;
+    
+    }
+    .cardvector{
+        position: absolute;
+        display: inline-block;
+        top: 485px;
+        left: 20px;
     
     }
 

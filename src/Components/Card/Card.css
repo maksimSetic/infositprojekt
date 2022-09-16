@@ -1,14 +1,18 @@
 
 #cardbox{
 
-    padding: 14px;
+    padding: 11px;
+    transition:  0.6s all;
 
 }
 
 .cardimg{
+    position: relative;
     width: 275px;
     height: 350px;
     background-color: transparent;
+    z-index: -1;
+    transition:  1s all;
 }
 
 .cardinfo {
@@ -16,6 +20,7 @@
     height: 141px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    transition:  1s all;
 }
 
 .cardname {
@@ -45,8 +50,8 @@
 }
 
 .cardexcerpt {
-    transition:  1s all;
     color: #7D7D7D;
+    transition:  0.6s all;
 
 }
 .cardexcerpthidden {
@@ -64,25 +69,21 @@
 
 }
 
-
-
-
-#cardbox:hover .cardexcerpthidden {
-    margin-top: -150px;
-    transition:  1s all;
-    height: 150px;
-    
-    }; 
-
-
-.vector {
-    position: absolute;
-    z-index: 5;
-    top: 10px;
-
+    #cardbox:hover  .metainfo{
+        margin-top: -50px;
+        transition:  0.6s all;
+        height: 50px;
+        margin-bottom: 25px;
 }
 
 
+#cardbox2:hover  .cardexcerpthidden{
+    transition:  0.6s all;
+    height: 60px;
+}
 
 
-
+#cardbox3:hover  .cardinfo{
+ height: 190px;
+ transition:  0.6s all;
+}

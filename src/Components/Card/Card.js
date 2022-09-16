@@ -1,24 +1,23 @@
 import { react, useState, useEffect, Component } from "react";
 import "./Card.css";
+import "../CardPage/CardPage.css"
 import Axios from "axios";
 import styled from "styled-components";
 import { ReactComponent as Vector } from "../../Assets/Vector.svg";
-
+import { ReactComponent as Vector1 } from "../../Assets/Vector1.svg";
 
 const Grid = styled.div`
-display: flex;
+  display: flex;
   margin-top: 116px;
   @media (max-width: 760px) {
     flex-direction: column;
-    
   }
   .parent {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 14px;
-    grid-row-gap: 14px;
-
+    grid-column-gap: 13px;
+    grid-row-gap: 13px;
   }
   .div1 {
     grid-area: 1 / 1 / 6 / 2;
@@ -47,17 +46,15 @@ const Card = () => {
   const arr = cardsData.slice(0, 4).map((card, index) => {
     return (
       <>
-            <div className="cardbox" id="cardbox">
-            <div className="cardbox2" id="cardbox2">
+        <div className="cardbox" id="cardbox">
+          <div className="cardbox2" id="cardbox2">
             <div className="cardbox3" id="cardbox3">
-              <img src={card.image} className="cardimg" />
+              <img src={card.avatar} className="cardimg" />
               <div className="cardinfo">
-                <div className="cardname">
-                  {card.name}                      
-                </div>
-                <div className="cardlocation">{card.state}</div>
+           <div className="metainfo">   <div className="cardname">{card.name}</div>
+                <div className="cardlocation">{card.state}</div></div>  
                 <div className="cardexcerpthidden" id="classexcerpthidden">
-                 {card.body}
+                {card.body}
                 </div>
                 <div className="cardexcerpt">
                   Aenean et diam vel metus dignissim suscipit fermentum nec
@@ -65,13 +62,13 @@ const Card = () => {
                 </div>
               </div>
             </div>
-            </div>
-            </div>
- </>
+          </div>
+        </div>
+      </>
     );
   });
 
-  return  (<Grid>{arr}</Grid>);
+  return <><div><Grid> {arr}</Grid></div></>;
 };
 
 export default Card;
