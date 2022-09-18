@@ -1,68 +1,27 @@
-
-.cardcontainerpage{
-    overflow: hidden;
-    height: fit-content;
-    width: fit-content;
-    position: relative;
-   
+.cardcontainerpage {
+  overflow: hidden;
+  height: fit-content;
+  width: fit-content;
+  position: relative;
 }
 
 .cardcontainer {
-    position: relative;
-    height: fit-content;
-    width: fit-content;
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+}
+
+.cardvector {
+  position: absolute;
+  display: inline-block;
+  top: 485px;
+  left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .cardarraybox {
+    display: block;
+    overflow: hidden;
   
- 
-
+  }
 }
-
-
-
-.containertitle1 {
-display: flex;
-margin-top: 20px;
-margin-left: 15px;
-width: 200px;
-color: #EC7F00;
-height: 38px;
-font-family: 'Roboto', sans-serif;
-font-weight: 700;
-font-size: 32px;
-line-height: 38px;
-}
-
-
-.containertitle2 {
-display: flex;
-font-family: 'Roboto Condensed', sans-serif;
-font-style: normal;
- font-weight: 400;
-font-size: 20px;
-line-height: 23px;
-color: #505050;
-margin-left: 15px;
-width: 400px;
-
-}
-
-
-.cardarraybox {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-    
-    }
-    .cardvector{
-        position: absolute;
-        display: inline-block;
-        top: 485px;
-        left: 20px;
-    
-    }
-
-    @media only screen and (max-width: 600px) {
-        .cardarraybox {
-          display: table;
-          overflow: hidden;
-        }
-      }
