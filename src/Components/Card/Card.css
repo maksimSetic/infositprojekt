@@ -14,13 +14,10 @@
 }
 
 .cardshape {
-    display: flex;   
-    height: 36px;
-    width: 275px;
-    transition: 0.3s all;
-
-
-    
+  display: flex;
+  height: 36px;
+  width: 275px;
+  transition: 0.3s all;
 }
 
 .metainfo {
@@ -96,16 +93,13 @@
 #cardbox3:hover .cardinfo {
   height: 35px;
   margin-top: -35px;
-
 }
 
 #cardbox4:hover .cardshape {
-    height: 85px;
-    margin-top: -85px;
-    transition: 0.3s all;
- 
-
-  }
+  height: 95px;
+  margin-top: -95px;
+  transition: 0.3s all;
+}
 
 @media only screen and (max-width: 600px) {
   #cardbox {
