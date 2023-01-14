@@ -35,7 +35,7 @@ const Card = () => {
   const [cardData, setCardData] = useState([]);
 
   useEffect(() => {
-    Axios.get("https://api.infosit-zadatak.tk/api/entity")
+    Axios.get("https://api.npoint.io/57ea8c86634e5970871d")
       .then((res) => setCardData(res.data))
       .catch((err) => console.log(err));
   }, []);

@@ -10,7 +10,7 @@ const CardPage = () => {
           Users list
         </div>
         <div className="flex not-italic font-normal text-xl leading-6 text-gray-700 ml-4">
-          This is a user list lorem sit amet...
+          This is a user list connected to a relational database...
         </div>
         <Card />
       </div>
